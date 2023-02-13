@@ -1,0 +1,30 @@
+:root { 
+  --black: #000000;
+  --chicago: #5b5b5b;
+  --mercury: #e7e7e7;
+  --tundora: #464646;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-xl: 25px;
+  --font-size-xxl: 30px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-noto_sans: "Noto Sans", Helvetica;
+}
+.notosans-bold-tundora-18px {
+  color: var(--tundora);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.notosans-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-noto_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
